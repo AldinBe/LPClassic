@@ -1,0 +1,62 @@
+/* MAIN */
+.container {
+  width: 60vw;
+}
+.active {
+  text-decoration: underline;
+  color: #000;
+}
+.border-r {
+  border-right: 3px solid #000;
+}
+.btn {
+  border: 1px outset #1e00c9;
+  background-color: #1e00c9;
+  cursor: pointer;
+}
+.text-primary {
+  color: #1e00c9 !important;
+}
+.bg-primary {
+  background-color: #1e00c9 !important;
+}
+.decorated {
+  width: 100%;
+  text-align: center;
+  position: static;
+  z-index: 0;
+}
+.decorated span {
+  background: #fff;
+  padding: 0 10px;
+}
+.decorated:after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 0;
+  border-top: 1px solid;
+  width: 100%;
+  z-index: -1;
+}
+/*PHONE*/
+.phone p {
+  color: #fff;
+}
+/* NAVBAR*/
+.navigation a {
+  padding-right: 15px;
+}
+/* FOOTER SOCIAL ICONS */
+.social a {
+  padding: 20px 40px;
+}
+.fa {
+  padding: 20px;
+  color: gray;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
